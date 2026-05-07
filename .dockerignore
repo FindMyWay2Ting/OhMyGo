@@ -1,0 +1,8 @@
+.git
+.idea
+.vscode
+
+**/node_modules
+vue-frontend/dist
+
+*.log

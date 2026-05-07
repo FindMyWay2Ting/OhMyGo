@@ -1,0 +1,66 @@
+# Compiled object builds
+*.o
+*.a
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Go test binaries
+*.test
+*.[0-9].test
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Frontend / Node.js
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.npm/
+
+# Environment Variables & Sensitive files
+.env
+.env.*
+!.env.example
+config/config.toml
+config/config.docker.toml
+*.pem
+*.key
+*.cert
+*.crt
+id_rsa*
+*.p12
+
+# RAG & AI Models
+uploads/
+*.onnx
+imagenet_classes.txt
+*.pt
+*.pth
+*.h5
+
+# Docker
+docker-compose.override.yml
+.docker/
+
+# IDE / OS Files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+.trae/
+
+# Project specific
+GopherAI-v2.exe
+main.exe
+main
+GopherAI-v2
